@@ -122,16 +122,34 @@
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light">BU Course Community</h1>
         <p class="lead text-muted">This is a platform designed for BU students to share their experience of taking a course, and search for others' comment on some courses</p>
-        <p>
-          <a href="post.html" class="btn btn-primary my-2">Create a Post</a>
-          <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
-        </p>
       </div>
     </div>
   </section>
 
   <div class="album py-5 bg-light">
     <div class="container">
+
+      <div class="post">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter Topic Title" aria-label="Enter Topic Title" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">Description</span>
+            <textarea class="form-control" aria-label="Description"></textarea>
+        </div>
+        <br>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Category</option>
+            <option value="1">CAS CS411</option>
+            <option value="2">CAS MA116</option>
+            <option value="3">CAS CS112</option>
+        </select>
+        <br>
+        <button type="button" class="btn btn-primary btn-lg">Post</button>
+        <br><br>
+      </div>
+
+      <br><br><br>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
@@ -142,7 +160,7 @@
               <p class="card-text">Introduction to the construction of reliable software. Topics may include software tools, software testing methodologies, regression testing, structured design and structured programming, software characteristics and quality, formal proofs of program correctness, chief program teams, and structured walk-throughs. </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="cs411.html" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                  <a href="#" type="button" class="btn btn-sm btn-outline-secondary">View</a>
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
                 </div>
                 <small class="text-muted">9 mins</small>
@@ -178,7 +196,7 @@
               <p class="card-text">Covers advanced programming techniques and data structures. Topics include recursion, algorithm analysis, linked lists, stacks, queues, trees, graphs, tables, searching, and sorting.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a href="cs112.html" type="button" class="btn btn-sm btn-outline-secondary">View</a>
                   <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
                 </div>
                 <small class="text-muted">9 mins</small>
@@ -301,11 +319,7 @@
 
 <footer class="text-muted py-5">
   <div class="container">
-    <p class="float-end mb-1">
-      <a href="#">Back to top</a>
-    </p>
-    <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.2/getting-started/introduction/">getting started guide</a>.</p>
+    <p class="mb-1">2022 &copy; BU Community Community, update will be released soon</p>
   </div>
 </footer>
 
@@ -315,16 +329,3 @@
 
   </body>
 </html>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
