@@ -1,6 +1,6 @@
 from django.urls import re_path
 from . import views
-
+# urls
 urlpatterns = [
     re_path(r'^register/$', views.RegisterView.as_view()),
     re_path(r'^login/$', views.LoginView.as_view()),

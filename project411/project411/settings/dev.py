@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'users'
+    'users',
+    'posts'
 ]
 
 MIDDLEWARE = [
@@ -78,6 +79,7 @@ WSGI_APPLICATION = 'project411.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# databse info
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
